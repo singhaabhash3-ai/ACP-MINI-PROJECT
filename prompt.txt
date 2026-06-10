@@ -1,9 +1,16 @@
-Problem Statement: Design and implement a menu-driven 2D Graphics Editor in C using a 2D character array as the drawing canvas. The canvas should initially be filled with the character _ (underscore), and graphical objects should be drawn using the character * (asterisk).
+Prompt Used to Build This Project:
 
-Write functions to draw a circle, rectangle, line, and triangle.
-You should be able to
-      add objects to the picture,
-      delete objects from the picture, and
-      modify objects in the picture.
-Use a 2d array of characters to store the picture.
-Write a function to display the picture.
+"Build a menu-driven 2D Graphics Editor in C for a beginner-level mini project.
+
+Requirements:
+- Use a 2D character array (30x60) as the drawing canvas.
+- Initialize the canvas with '_' (underscore) and draw shapes using '*' (asterisk).
+- Implement drawing functions for: Circle, Rectangle, Line, and Triangle.
+- Support three core operations on objects:
+    1. Add    - Draw a new shape onto the canvas.
+    2. Delete - Remove an existing shape from the canvas.
+    3. Modify - Update the parameters of an existing shape.
+- Store all objects in a struct array so they can be tracked, deleted, and modified individually.
+- Include a display function that prints the full canvas with row/column guides.
+- Keep the code simple and beginner-friendly (no pointers, no dynamic memory allocation).
+- Use a clean, interactive menu system with numbered options."
